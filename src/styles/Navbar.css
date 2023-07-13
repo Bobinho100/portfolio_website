@@ -1,0 +1,158 @@
+.header {
+    padding: 30px;
+    border-bottom: 20px 50px ;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: #f3f3f3;
+
+
+}
+
+.navigation {
+
+    /*display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;*/
+    position: absolute;
+    top: 93px ;
+    right: 0px;
+    background-color: aquamarine;
+    width: 100%;
+    padding:10px ;
+    z-index: 999;
+    border-radius: 10px;
+    display: none;
+
+
+
+
+}
+
+
+.navigation a{
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    position: relative;
+
+
+}
+.navigation a:hover {
+    color: white;
+}
+
+.navigation.open {
+    display: block;
+    animation: slideDown 0.5s ease-in-out forwards;
+
+}
+.navigation.closed {
+    background-color: transparent;
+}
+
+
+
+.openMenu,
+.closeMenu
+
+{
+
+    height: 20px;
+    transition: transform 0.5s ease-in-out;
+    color: red;
+
+
+
+}
+.closeMenu {
+    transform: rotate(180deg);
+    cursor: pointer;
+    color: red;
+
+  }
+
+
+
+
+nav {
+    /*display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+    margin-left: 20px;
+    gap: 5px;*/
+
+
+}
+.hamburger {
+    /*display: none;*/
+    background: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+@media (min-width: 767px) {
+    .hamburger {
+        display: none;
+        /*display: flex;
+        z-index: 10;
+        margin-left: 20px;*/
+    }
+    .navigation {
+        display: flex;
+        background-color: aquamarine;
+        justify-content: flex-end;
+        position: relative;
+        top: auto;
+        width: 0;
+        left: 0;
+        padding: 0 10px;
+
+    }
+    .navigation a {
+        padding: 0px;
+        margin-left: 3px;
+    }
+    .navigation a:not(:last-child){
+        margin-right: 20px;
+    }
+    .navigation.open {
+        display: flex;
+    }
+    .navigation a:before{
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        width: 0;
+        height: 1px;
+        background-color: black;
+        transition: width 0.3s ease-in-out;
+
+    }
+    .navigation a:hover:before{
+        width: 100%;
+    }
+    .links a.active:before {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        width: 0;
+        height: 1px;
+        background-color: black;
+        transition: width 0.3s ease-in-out;
+        width: 100%;
+      }
+
+      .closed {
+        background-color: transparent;
+      }
+
+
+}
