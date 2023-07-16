@@ -3,6 +3,9 @@ import Home from "./components/Home";
 import Projects from "./components/Projects";
 import { Route, Routes, NavLink, Navigate, BrowserRouter as Router} from "react-router-dom";
 import Navbar from "./components/Navbar";
+import LandingPage from "./pages/LandingPage";
+import Portfolio from "./pages/Portfolio";
+
 
 function App() {
   return (
@@ -12,9 +15,10 @@ function App() {
 
 
         <Routes>
-          <Route path="/" element = {<Home />}></Route>
+          <Route path="/" element = {<LandingPage/>}></Route>
           <Route path="/about" element = {<About />}></Route>
-          <Route path="/projects" element = {<Projects />}></Route>
+          <Route path="/projects" element = {<Portfolio />}></Route>
+
         </Routes>
     </Router>
 

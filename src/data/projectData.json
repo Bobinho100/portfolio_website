@@ -1,0 +1,120 @@
+[{
+    "title": "Wordle Game",
+    "image": "https://i.guim.co.uk/img/media/b4977654b509967eef77b87c256fa639f0ef807a/65_137_887_532/master/887.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=9c01405913e4ecbfc72818af2bf65132",
+    "description": " A guessing game",
+    "technologies": "Html, Css and JavaScript",
+    "github": "https://github.com/Bobinho100/Wordle-game",
+    "view": "",
+    "bgColor": "#f37737",
+    "id": "1"
+
+
+},
+
+{
+
+    "title": "Obituary Show",
+    "image": "https://gray-wtap-prod.cdn.arcpublishing.com/resizer/8K-HwSfrK4HvXt07NxhIGFrdv9M=/1200x675/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/H36AXF5HEVDWZCJEZP7EMZLKFY.jpg",
+    "description": " A ",
+    "technologies": "AWS, React,Python",
+    "github": "",
+    "view": "",
+    "bgColor": "",
+    "id": "2"
+
+
+},
+{
+
+    "title": "Feedback-UI",
+    "image": "https://www.russellconsultinginc.com/wp-content/uploads/2011/05/bigstock-Feedback-Concept-43047913.jpg",
+    "description": "",
+    "technologies": "React",
+    "github": "",
+    "view": "",
+    "bgColor": "",
+    "id": "3"
+
+
+},
+{
+
+    "title": "Lotion(Note)",
+    "image": " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfUNZfNaJbb80HHtrNTQmlN_p1HXHT909ZZzhpcn4&s",
+    "description": "",
+    "technologies": "React, python, AWS",
+    "github": "",
+    "view": "",
+    "bgColor": "",
+    "id": "4"
+
+
+},
+{
+
+    "title": "Recipe API",
+    "image": "",
+    "description": "",
+    "technologies": "Django, Docker, GithubActions, Flake",
+    "github": "",
+    "view": "",
+    "bgColor": "",
+    "id": "5"
+
+
+},
+{
+
+    "title": "Ticket-Support",
+    "image": "",
+    "description": "",
+    "technologies": "MongoDB, Express, React, Node",
+    "github": "",
+    "view": "",
+    "bgColor": "",
+    "id": "6"
+
+
+},
+{
+
+    "title": "Calorie-Web-app",
+    "image": " https://www.weightlossresources.co.uk/pimg/wlr/h/how-many-calories-in-food-article.jpg  ",
+    "description": "",
+    "technologies": "Flask, Html, Css",
+    "github": "",
+    "view": "",
+    "bgColor": "",
+    "id": "7"
+
+
+},
+{
+
+    "title": "Expense-Tracker",
+    "image": "",
+    "description": "",
+    "technologies": "React",
+    "github": "",
+    "view": "",
+    "bgColor": "",
+    "id": "8"
+
+
+},
+{
+
+    "title": "CyberHire",
+    "image": "",
+    "description": "",
+    "technologies": "AWS, React, FastAPI,",
+    "github": "",
+    "view": "",
+    "bgColor": "",
+    "id": "8"
+
+
+}
+
+
+]

@@ -1,0 +1,38 @@
+.landing{
+    height: calc(100% - 93px);
+    display: flex;
+    justify-content: center;
+    align-items: "center";
+    background-color: pink;
+}
+
+.landingImage {
+    position: absolute;
+    bottom: 0;
+    opacity: 0.3;
+    mix-blend-mode: lighten;
+    height: 80%;
+  }
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 1px;
+    text-align: center;
+    z-index:1;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+  }
+
+
+
+.name {
+    color: #fff;
+    font-weight: 700;
+    /*margin-top: -100px;
+    padding-bottom: 28px;*/
+    font-size: 48px;
+  }
+  .description{
+    font-size: 22px;
+  }

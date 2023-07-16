@@ -1,0 +1,25 @@
+/* LandingPage.css */
+
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .page {
+    width: 100%;
+    padding: 50px;
+    background-color: #f8f8f8;
+    /* Add additional styles as needed */
+  }
+
+  .page:nth-child(odd) {
+    background-color: #fff;
+  }
+
+  .portfolio-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Add additional styles as needed */
+  }
