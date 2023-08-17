@@ -1,11 +1,12 @@
 [{
-    "title": "Wordle Game",
-    "image": "https://i.guim.co.uk/img/media/b4977654b509967eef77b87c256fa639f0ef807a/65_137_887_532/master/887.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=9c01405913e4ecbfc72818af2bf65132",
-    "description": " A guessing game",
-    "technologies": "Html, Css and JavaScript",
-    "github": "https://github.com/Bobinho100/Wordle-game",
-    "view": "",
-    "bgColor": "#f37737",
+    "title": "CyberHire",
+    "image": "https://cyberhire.techstartucalgary.com/static/media/CyberHireLogo.d1571fa51fb92884f6ab.png",
+    "description": " Developed CyberHire: a platform matching students' software skills with job postings, leading to increased sign-ups and higher job placement success rates, benefiting both students and over 10,000 Canadian start-ups. ",
+    "technologies": "AWS, React, FastAPI,",
+    "github": "https://github.com/techstartucalgary/CyberHire",
+    "view": "https://cyberhire.techstartucalgary.com/",
+    "bgColor": "",
+
     "id": "1"
 
 
@@ -15,10 +16,10 @@
 
     "title": "Obituary Show",
     "image": "https://gray-wtap-prod.cdn.arcpublishing.com/resizer/8K-HwSfrK4HvXt07NxhIGFrdv9M=/1200x675/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/H36AXF5HEVDWZCJEZP7EMZLKFY.jpg",
-    "description": " A ",
+    "description": " Developed a personalized obituary website with advanced features, ChatAPI integration, and streamlined CI/CD pipeline, serving almost 100 users, using React, Python, AWS, and Terraform. ",
     "technologies": "AWS, React,Python",
-    "github": "",
-    "view": "",
+    "github": "https://github.com/Bobinho100/Obituary-Album",
+    "view": "https://glittery-caramel-811fbd.netlify.app/",
     "bgColor": "",
     "id": "2"
 
@@ -28,9 +29,9 @@
 
     "title": "Feedback-UI",
     "image": "https://www.russellconsultinginc.com/wp-content/uploads/2011/05/bigstock-Feedback-Concept-43047913.jpg",
-    "description": "",
+    "description": "Your go-to feedback website: Rate, write, and manage opinions with ease. Effortless feedback at your fingertips.",
     "technologies": "React",
-    "github": "",
+    "github": "https://github.com/Bobinho100/Feedback_UI",
     "view": "",
     "bgColor": "",
     "id": "3"
@@ -41,10 +42,10 @@
 
     "title": "Lotion(Note)",
     "image": " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfUNZfNaJbb80HHtrNTQmlN_p1HXHT909ZZzhpcn4&s",
-    "description": "",
+    "description": "A note app, can write, edit, save and delete note. It also has google authentication",
     "technologies": "React, python, AWS",
-    "github": "",
-    "view": "",
+    "github": "https://github.com/Bobinho100/Lotion_plus",
+    "view": "https://stirring-cocada-6f9544.netlify.app",
     "bgColor": "",
     "id": "4"
 
@@ -53,10 +54,10 @@
 {
 
     "title": "Recipe API",
-    "image": "",
-    "description": "",
-    "technologies": "Django, Docker, GithubActions, Flake",
-    "github": "",
+    "image": "https://rapidapi.com/blog/wp-content/uploads/2020/03/Best-Recipes_blogimage_v3-768x427.jpg",
+    "description": "Developed a secure Recipe App API with Django, leveraging Docker Compose for streamlined deployment. Designed RESTful endpoints for ingredients, images, and links, showcasing strong backend skills and API expertise in a user-centered recipe application.",
+    "technologies": "Django, Docker",
+    "github": "https://github.com/Bobinho100/recipe-app-api",
     "view": "",
     "bgColor": "",
     "id": "5"
@@ -66,10 +67,11 @@
 {
 
     "title": "Ticket-Support",
-    "image": "",
-    "description": "",
-    "technologies": "MongoDB, Express, React, Node",
-    "github": "",
+    "image": "https://www.wengage.com/webhelp/i-si2.0/Image/OpenTicketButton.gif",
+    "description":
+    "Developed MERN Ticket Support App with secure user authentication. Designed APIs for efficient ticket management, profile functionality, and complaint notes. Ensured seamless user experience through effective technology stack integration.",
+    "technologies": "MongoDB,Express,React,Node",
+    "github": "https://github.com/Bobinho100/Ticket_support",
     "view": "",
     "bgColor": "",
     "id": "6"
@@ -80,7 +82,7 @@
 
     "title": "Calorie-Web-app",
     "image": " https://www.weightlossresources.co.uk/pimg/wlr/h/how-many-calories-in-food-article.jpg  ",
-    "description": "",
+    "description": "Created a weather-based calorie calculator app, utilizing Python's web scraping capabilities and Flask for the backend, to calculate daily calorie needs based on user's weight, height, age, and location-specific temperature data.",
     "technologies": "Flask, Html, Css",
     "github": "",
     "view": "",
@@ -89,29 +91,18 @@
 
 
 },
+
 {
 
-    "title": "Expense-Tracker",
-    "image": "",
-    "description": "",
-    "technologies": "React",
-    "github": "",
+    "title": "Wordle Game",
+    "image": "https://i.guim.co.uk/img/media/b4977654b509967eef77b87c256fa639f0ef807a/65_137_887_532/master/887.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=9c01405913e4ecbfc72818af2bf65132",
+    "description": " Made a thrilling word-guessing challenge where players attempt to guess a secret word within limited attempts, using feedback to guide their choices.",
+    "technologies": "Html, Css and JavaScript",
+    "github": "https://github.com/Bobinho100/Wordle-game",
     "view": "",
-    "bgColor": "",
+    "bgColor": "#f37737",
     "id": "8"
 
-
-},
-{
-
-    "title": "CyberHire",
-    "image": "",
-    "description": "",
-    "technologies": "AWS, React, FastAPI,",
-    "github": "",
-    "view": "",
-    "bgColor": "",
-    "id": "8"
 
 
 }

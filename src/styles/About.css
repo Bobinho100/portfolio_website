@@ -1,7 +1,8 @@
 /* About.css */
 
 .about {
-    background-color: #f8f8f8;
+    /*background-color: #f8f8f8;*/
+    background: #FFFDF4 repeat center center;
     padding: 50px;
     text-align: center;
     margin-top: 50px; /* Adjust the margin-top value as needed */
@@ -24,4 +25,7 @@
 img {
     border-radius: 20px;
     width: 50%;
+}
+.text {
+  text-align: center;
 }

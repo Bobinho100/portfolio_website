@@ -1,7 +1,7 @@
 .container {
-    width: 300px;
-    background-color: pink;
-    height: 300px;
+    width: 350px;
+    /*background-color: pink;*/
+    height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,17 +9,17 @@
     padding: 0px;
     margin: 20px;
     border-radius: 20px;
+    background: #a8ff78;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 }
 .image {
     transition: all 1.3s ease-in-out;
-
-
-
-
-
-
-
+}
+.container :hover {
+    background-color: lightgreen;
 }
 
 .image img {
@@ -27,5 +27,65 @@
     height: 150px;
     width: 200px;
     border-radius: 10px;
+
+}
+.container1 {
+    width: 350px;
+   /* background-color: lightgreen;*/
+
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 20px;
+    border-radius: 20px;
+    /*background: #1E9600;  /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to top, #FF0000, #FFF200, #1E9600);  /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to top, #FF0000, #FFF200, #1E9600); *//* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #FFEEEE;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+}
+
+button {
+    padding: 10px;
+    background-color: aqua;
+
+    outline: none;
+}
+button a {
+    text-decoration: none;
+    padding: 10px;
+
+}
+.span{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 10px;
+    margin: 10px;
+    /*background-color: beige;*/
+    border-radius: 20px;
+    background: #2BC0E4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.para{
+    text-align: center;
+
+}
+ a {
+    outline: none;
+
+    text-decoration: none;
+    padding: 10px;
+
 
 }

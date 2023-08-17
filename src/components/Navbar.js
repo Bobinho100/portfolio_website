@@ -38,7 +38,7 @@ const Navbar = () => {
 
                 <NavLink to = '/about'   onClick={()=> setHamburgerOpen(!hamburgerOpen)}  >About</NavLink>
                 <NavLink to= '/projects'  onClick={()=> setHamburgerOpen(!hamburgerOpen)}    >Projects</NavLink>
-                <NavLink to= '/experience'  onClick={()=> setHamburgerOpen(!hamburgerOpen)}     >Experience</NavLink>
+
 
 
 

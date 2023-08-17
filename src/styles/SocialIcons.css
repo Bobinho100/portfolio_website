@@ -1,8 +1,13 @@
 .icon{
      text-decoration: none;
-    font-size: 40px;
+    font-size: 20px;
       /*padding: 10px;*/
       transition: 0.2s ease-in;
+      color: black;
+      background-color: antiquewhite;
+      border-radius: 30px;
+
+
 }
 .socialIcons {
     display: flex;
@@ -10,6 +15,7 @@
     left: 50px;
     bottom: 20px;
     align-items: center;
+    gap: 10px;
 }
 
 @media (min-width: 750px) {

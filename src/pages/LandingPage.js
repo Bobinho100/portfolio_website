@@ -5,6 +5,7 @@ import Projects from '../components/Projects'
 import Portfolio from './Portfolio'
 import '../styles/LandingPage.css'
 import '../index.css'
+import SocialIcons from '../components/SocialIcons'
 
 const LandingPage = () => {
   return (
@@ -32,9 +33,11 @@ const LandingPage = () => {
         </div>
 
 
+
       </div>
 
 
+    <SocialIcons />
 
     </div>
 

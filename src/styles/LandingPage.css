@@ -9,17 +9,27 @@
   .page {
     width: 100%;
     padding: 50px;
-    background-color: #f8f8f8;
+    /*background-color: #f8f8f8;
+    background-color: black;*/
+
+
     /* Add additional styles as needed */
   }
 
-  .page:nth-child(odd) {
-    background-color: #fff;
+  .page:nth-child(1) {
+    /*background-color: #fff;*/
+    background: #FFFDF4 repeat center center;
   }
+
 
   .portfolio-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     /* Add additional styles as needed */
+  }
+
+  .social {
+    background-color: blue;
+    width: 100%;
   }
