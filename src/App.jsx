@@ -9,7 +9,7 @@ const navItems = [
 ];
 
 const stats = [
-  { value: "4 yrs", label: "Design, content, and editing support" },
+  { value: "6 yrs", label: "Design, content, and editing support" },
   { value: "6+", label: "Creative and technical disciplines" },
   { value: "360", label: "Builder, editor, evaluator, designer" }
 ];
@@ -23,15 +23,24 @@ const focusAreas = [
   "Game Development"
 ];
 
+const visualTiles = [
+  { label: "Design", detail: "Graphics, posters, thumbnails", accent: "#ff7a59" },
+  { label: "Editing", detail: "Highlights, reels, captions", accent: "#4f7cff" },
+  { label: "AI", detail: "Evaluation and quality review", accent: "#18b7a7" },
+  { label: "Code", detail: "React, APIs, web apps", accent: "#f5b83f" },
+  { label: "CAD", detail: "Technical visual workflows", accent: "#b35cff" },
+  { label: "Games", detail: "Unity and Roblox", accent: "#ef4f91" }
+];
+
 const accentPalette = ["#ff7a59", "#4f7cff", "#18b7a7", "#f5b83f", "#b35cff", "#ef4f91"];
 
 const experiences = [
   {
     company: "University of Calgary",
-    meta: "4 years",
+    meta: "6 years",
     role: "Graphic Designer, Content Manager, and Video Editor",
     description:
-      "Managed content, created graphics, edited videos, and supported visual communication projects for 4 years.",
+      "Managed content, created graphics, edited videos, and supported visual communication projects for 6 years.",
     accent: "#ff7a59"
   },
   {
@@ -270,15 +279,31 @@ function Hero() {
         </div>
       </div>
 
-      <div className="hero-visual" aria-label="Creative technical workspace preview">
-        <div className="image-shell">
-          <img
-            src="/assets/hero-workspace.png"
-            alt="Modern desk workspace with software, design, video editing, CAD, and AI evaluation interfaces"
-          />
-          <div className="floating-chip chip-one">React</div>
-          <div className="floating-chip chip-two">AI Review</div>
-          <div className="floating-chip chip-three">Design</div>
+      <div className="hero-visual" aria-label="Creative and technical capability summary">
+        <div className="showcase-board">
+          <div className="showcase-header">
+            <span>Portfolio System</span>
+            <strong>6 years of design-led technical work</strong>
+          </div>
+          <div className="showcase-meter" aria-hidden="true">
+            <span />
+            <span />
+            <span />
+            <span />
+          </div>
+          <div className="showcase-grid">
+            {visualTiles.map((tile) => (
+              <div className="showcase-tile" key={tile.label} style={{ "--tile-accent": tile.accent }}>
+                <span>{tile.label}</span>
+                <p>{tile.detail}</p>
+              </div>
+            ))}
+          </div>
+          <div className="showcase-footer">
+            <span>Content</span>
+            <span>Engineering</span>
+            <span>Production</span>
+          </div>
         </div>
       </div>
 
