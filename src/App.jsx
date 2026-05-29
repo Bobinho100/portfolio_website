@@ -23,6 +23,8 @@ const focusAreas = [
   "Game Development"
 ];
 
+const accentPalette = ["#ff7a59", "#4f7cff", "#18b7a7", "#f5b83f", "#b35cff", "#ef4f91"];
+
 const experiences = [
   {
     company: "University of Calgary",
@@ -54,8 +56,8 @@ const experiences = [
     role: "Software Engineer",
     description:
       "Built and contributed to software projects involving web applications, backend systems, frontend interfaces, APIs, and technical problem-solving.",
-    link: "GitHub: [PASTE GITHUB LINK HERE]",
-    href: "[PASTE GITHUB LINK HERE]",
+    link: "GitHub: github.com/Bobinho100",
+    href: "https://github.com/Bobinho100",
     accent: "#f5b83f"
   }
 ];
@@ -63,7 +65,17 @@ const experiences = [
 const skillGroups = [
   {
     title: "Video Editing",
-    skills: ["DaVinci Resolve", "Adobe Premiere Pro", "iMovie"],
+    skills: [
+      "DaVinci Resolve",
+      "Adobe Premiere Pro",
+      "Adobe After Effects",
+      "iMovie",
+      "CapCut",
+      "Final Cut Pro",
+      "Video captions",
+      "Social media formatting",
+      "Audio syncing"
+    ],
     accent: "#ff7a59"
   },
   {
@@ -82,39 +94,55 @@ const skillGroups = [
     accent: "#18b7a7"
   },
   {
-    title: "Other",
-    skills: ["CAD", "Game development", "Content management", "Social media content creation"],
+    title: "Game Development",
+    skills: ["Unity", "Roblox", "Game mechanics", "Level design", "Interactive prototypes"],
     accent: "#b35cff"
+  },
+  {
+    title: "Other",
+    skills: ["CAD", "Content management", "Social media content creation", "Digital asset management"],
+    accent: "#ef4f91"
   }
 ];
 
 const projects = [
   {
-    title: "Football Highlight Edit",
-    category: "Video Editing",
+    title: "Bobby FC Instagram Channel",
+    category: "Social Media / Sports Content",
     description:
-      "Edited a soccer highlight video with transitions, music syncing, captions, and social media formatting.",
-    tools: ["DaVinci Resolve", "Adobe Premiere Pro"],
-    link: "[PASTE LINK HERE]",
-    action: "View Project",
+      "Manage the Bobby FC Instagram presence, including football video edits, match graphics, promotional visuals, highlight content, captions, and social media posts.",
+    tools: ["DaVinci Resolve", "Adobe Premiere Pro", "GIMP", "Canva"],
+    link: "https://www.instagram.com/bobbyfc.en/",
+    action: "View Instagram",
     accent: "#ff7a59"
   },
   {
-    title: "Matchday Graphic Design",
-    category: "Graphic Design",
-    description: "Designed a matchday poster and social media graphic for a football team.",
-    tools: ["GIMP", "Canva"],
-    link: "[PASTE LINK HERE]",
-    action: "View Project",
+    title: "ACSA UCalgary Instagram Graphics",
+    category: "Graphic Design / Content Management",
+    description:
+      "Create and manage graphics, image edits, announcements, promotional layouts, and content assets for the ACSA UCalgary Instagram channel.",
+    tools: ["GIMP", "Canva", "Adobe tools", "Content management"],
+    link: "https://www.instagram.com/acsauofc/",
+    action: "View Instagram",
     accent: "#f5b83f"
+  },
+  {
+    title: "Football Highlight Edit",
+    category: "Video Editing",
+    description:
+      "Edited soccer highlight videos with transitions, music syncing, captions, pacing, color adjustments, and social media formatting.",
+    tools: ["DaVinci Resolve", "Adobe Premiere Pro", "CapCut"],
+    link: "https://www.instagram.com/bobbyfc.en/",
+    action: "View Work",
+    accent: "#ef4f91"
   },
   {
     title: "Software Engineering Project",
     category: "Web Development",
     description: "Built a web application using modern frontend and backend technologies.",
     tools: ["React", "Python", "GitHub"],
-    link: "[PASTE LINK HERE]",
-    action: "View Project",
+    link: "https://github.com/Bobinho100",
+    action: "View GitHub",
     accent: "#4f7cff"
   },
   {
@@ -130,13 +158,22 @@ const projects = [
 ];
 
 const contactLinks = [
-  { label: "Email", value: "[PASTE EMAIL HERE]", href: "mailto:[PASTE EMAIL HERE]" },
-  { label: "GitHub", value: "[PASTE GITHUB LINK HERE]", href: "[PASTE GITHUB LINK HERE]" },
-  { label: "LinkedIn", value: "[PASTE LINKEDIN LINK HERE]", href: "[PASTE LINKEDIN LINK HERE]" },
+  { label: "Email", value: "bernardaire@gmail.com", href: "mailto:bernardaire@gmail.com" },
+  { label: "GitHub", value: "github.com/Bobinho100", href: "https://github.com/Bobinho100" },
   {
-    label: "Instagram / Portfolio",
-    value: "[PASTE INSTAGRAM OR DRIVE LINK HERE]",
-    href: "[PASTE INSTAGRAM OR DRIVE LINK HERE]"
+    label: "LinkedIn",
+    value: "linkedin.com/in/bernard-aire-125951233",
+    href: "https://www.linkedin.com/in/bernard-aire-125951233"
+  },
+  {
+    label: "Instagram - Bobby FC",
+    value: "@bobbyfc.en",
+    href: "https://www.instagram.com/bobbyfc.en/"
+  },
+  {
+    label: "Instagram - ACSA UCalgary",
+    value: "@acsauofc",
+    href: "https://www.instagram.com/acsauofc/"
   }
 ];
 
@@ -227,7 +264,7 @@ function Hero() {
           <a className="button secondary" href="#contact">
             Contact Me
           </a>
-          <a className="button ghost" href="[PASTE GITHUB LINK HERE]" target="_blank" rel="noreferrer">
+          <a className="button ghost" href="https://github.com/Bobinho100" target="_blank" rel="noreferrer">
             GitHub
           </a>
         </div>
@@ -405,7 +442,7 @@ function Contact() {
           <InteractiveCard
             key={link.label}
             className="contact-card"
-            accent={["#ff7a59", "#4f7cff", "#18b7a7", "#f5b83f"][index]}
+            accent={accentPalette[index % accentPalette.length]}
           >
             <a href={link.href} target={link.label === "Email" ? undefined : "_blank"} rel="noreferrer">
               <span>{link.label}</span>
@@ -432,7 +469,7 @@ export default function App() {
         <Contact />
       </main>
       <footer className="site-footer">
-        <p>(c) {new Date().getFullYear()} Bernard Aire. Built with React and ready for Netlify.</p>
+        <p>(c) {new Date().getFullYear()} Bernard Aire.</p>
         <a href="#home">Back to top</a>
       </footer>
     </>
